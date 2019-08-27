@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Laurens Vercauteren</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>laurens vercauteren</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="page">
+
+    <header class="main-header">
+      <h1>laurens</h1>
+      <nav>
+        <ul>
+          <li><a href='#home'>home</a></li>
+          <li><a href='#about'>about</a></li>
+          <li><a href='#projects'>projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <article id='home'>
+        <h2>welcome</h2>
+        <p>Welcome to my small, introductory website. Have a look around, get to know me, laugh with my html &amp; css skills or just close this page...</p>
+      </article>
+
+      <article id='about'>
+        <div class="text">
+          <h2>about</h2>
+          <ul>
+            <li><strong>Name: </strong>Laurens Vercauteren</li>
+            <li><strong>Age: </strong>28</li>
+            <li><strong>Location: </strong>Muizen (soon to be Mechelen)</li>
+            <li><strong>Interests: </strong>
+              <ul class='small-list'>
+                <li>Technology</li>
+                <li>Woodworking</li>
+                <li>Gaming (computer and boardgames)</li>
+                <li>Movies</li>
+                <li>Motorcycles</li>
+              </ul>
+            </li>
+            <li><strong>Before CM: </strong>Graphic designer (mostly DTP)</li>
+          </ul>
+        </div>
+        <figure>
+          <img class='face' src='images/headshot.png' alt='My beautiful face...' />
+          <!-- <figcaption>New HTML5 semantic elements</figcaption> -->
+        </figure>
+      </article>
+
+      <article id='projects'>
+        <h2>projects</h2>
+        <div class="project">
+          <figure>
+            <img class='old' src='images/old.jpg' alt='My old machine...' />
+            <!-- <figcaption>New HTML5 semantic elements</figcaption> -->
+          </figure>
+          <figure>
+            <img class='new' src='images/new.jpg' alt='My beautiful new machine...' />
+            <!-- <figcaption>New HTML5 semantic elements</figcaption> -->
+          </figure>
+          <h3>woodworking</h3>
+          <p>After working as a designer for about a year, he need to do something other with my hands than clicking and typing became overwhelming. That's when I joined a woodworking class. After 2.5 years the class is over, but my love for
+            woodworking is as big as it has ever been.</p>
+          <p>So when I was not allowed to take the class again, I invested in a 'combiné', a multi-purpose woodworking machine (a 5 in 1 machine). After a few years I felt the need to upgrade that machine, which I did just a few months ago. You can
+            see my old machine on the left, and my new one on the right (don't mind the messy workshop)... An amazing upgrade if you ask me!</p>
+        </div>
+        <div class="line"></div>
+        <figure>
+          <img class='keys' src='images/planck.jpg' alt='My beautiful keyboard...' />
+          <!-- <figcaption>New HTML5 semantic elements</figcaption> -->
+        </figure>
+        <h3>keyboards</h3>
+        <p>As a developer (or a designer), you spend your whole day behind a computer, giving commands to the machine via your mouse and keyboard. Your keyboard is an extension of yourself. So why not do something nice with your input device?</p>
+        <p>This is where mechanical keyboards come in to play. There are literally endless possibilities when it comes to customising mechanical keyboards: form factor, case, layout, type of switches, keycaps, cable, ... Everything can be adjusted to
+          suit your taste.</p>
+        <p>My taste happens to be the 'Planck' keyboard. A tiny, ortholinear (that means the keys are in a grid, not staggered) keyboard with 100% customizability through the firmware.</p>
+        <p>There is a lot more to say about keyboards, so if you're interested, ask about them in class ;)</p>
+      </article>
+
+      <footer>
+        <p>Made with <span style="color:#f08d8d">&hearts;</span> by yours truly. There is no copyright, so do whatever you want with all of this...</p>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
 </html>
